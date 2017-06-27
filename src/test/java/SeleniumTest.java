@@ -9,7 +9,7 @@ import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test {
+public class SeleniumTest {
     @Test
 
     public void TestTitle1() {
