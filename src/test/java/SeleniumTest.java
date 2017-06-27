@@ -17,7 +17,7 @@ public class SeleniumTest {
         File src = new File("/usr/bin/phantomjs");
         System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
         WebDriver driver = new PhantomJSDriver();
-        driver.get("http://192.168.50.11:8080/");
+        driver.get("http://192.168.50.11:8080/StudentGo/");
         String title1=driver.getTitle();
         Assert.assertTrue(title1.contains("StudentGo"));
 
@@ -28,7 +28,7 @@ public class SeleniumTest {
         File src = new File("/usr/bin/phantomjs");
         System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
         WebDriver driver = new PhantomJSDriver();
-        driver.get("http://192.168.50.11:8080/");
+        driver.get("http://192.168.50.11:8080/StudentGo/");
         String title2=driver.getTitle();
         Assert.assertTrue(title2.contains("StudentGo"));
 
@@ -39,7 +39,7 @@ public class SeleniumTest {
         File src = new File("/usr/bin/phantomjs");
         System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
         WebDriver driver = new PhantomJSDriver();
-        driver.get("http://192.168.50.11:8080/");
+        driver.get("http://192.168.50.11:8080/StudentGo/");
         String title3=driver.getTitle();
         Assert.assertTrue(title3.contains("StudentGo"));
 
@@ -50,7 +50,7 @@ public class SeleniumTest {
         File src = new File("/usr/bin/phantomjs");
         System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
         WebDriver driver = new PhantomJSDriver();
-        driver.get("http://192.168.50.11:8080/");
+        driver.get("http://192.168.50.11:8080/StudentGo/");
         String title4=driver.getTitle();
         Assert.assertTrue(title4.contains("StudentGo"));
 
